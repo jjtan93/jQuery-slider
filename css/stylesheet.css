@@ -1,0 +1,40 @@
+.wrapper
+{
+	width: 800px;
+	margin: 0px auto;
+}
+
+#slider
+{
+	width: 800px;
+	height: 600px;
+	overflow: hidden;
+	margin: 30px auto;
+}
+
+#slider > img
+{
+	width: 800px;
+	height: 600px;
+	float: left;
+	display: none;
+}
+
+a
+{
+	padding: 5px 10px;
+	color: #666;
+	background-color: #F0F0F0;
+	margin-top: 30px;
+	text-decoration: none;
+}
+
+a.left
+{
+	float: left;
+}
+
+a.right
+{
+	float: right;
+}
